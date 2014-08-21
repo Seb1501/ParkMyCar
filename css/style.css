@@ -1,6 +1,6 @@
 body{
 	background-image: url("../images/subtle_dots/subtle_dots.png");
-	font-family: "open-sans";
+	font-family: 'open-sans',;
 }
 
 #footer{
@@ -68,9 +68,8 @@ body{
 
 .circle{
 	border-radius: 50%;
-	border: 1px solid rgba(2,87,192);
+	border: 1px solid #555;
 	padding: 1px;
-	background-color: rgba(2,87,192, 0.8);
 	box-shadow: 1px 1px 1px #555;
 }
 
