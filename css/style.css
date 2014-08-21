@@ -8,7 +8,10 @@ body{
 	color: #506474;
 	padding: 1em;
 	margin-top: 2em;
-	}
+		}
+#footer h5 {
+	letter-spacing: 1px;
+}
 
 .social a {
 	font-size: 24px;
@@ -47,10 +50,28 @@ body{
 .feature p {
 	font-weight: 300;
 	letter-spacing: 1px;
-}
+	}
 
 .feature img {
 	margin-bottom: 2em;
+}
+
+.image img{
+ transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear; 
+}
+
+.image img:hover{
+	transform: rotate(10deg) scale(1.1);
+  -webkit-transform: rotate(10deg) scale(1.1);
+}
+
+.circle{
+	border-radius: 50%;
+	border: 1px solid rgba(2,87,192);
+	padding: 1px;
+	background-color: rgba(2,87,192, 0.8);
+	box-shadow: 1px 1px 1px #555;
 }
 
 .navbar-transparent {
@@ -84,4 +105,11 @@ background-color: rgba(0, 0, 0, 0.3);
 .format {
 	font-size: 16px;
 	letter-spacing: 1px;
+}
+
+.btn-lg {
+padding: 10px 16px;
+font-size: 18px;
+line-height: 1.33;
+border-radius: 6px;
 }
