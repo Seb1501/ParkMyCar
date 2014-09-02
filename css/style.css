@@ -47,6 +47,10 @@ body{
 	height: 6em;
 }
 
+.vertical-spacer{
+	height: 6em;
+}
+
 .feature p {
 	font-weight: 300;
 	letter-spacing: 1px;
