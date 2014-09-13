@@ -72,7 +72,16 @@
           styles: [{"featureType":"administrative","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"water","stylers":[{"visibility":"simplified"}]},{"featureType":"transit","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"visibility":"off"}]},{"featureType":"road.local","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"water","stylers":[{"color":"#84afa3"},{"lightness":52}]},{"stylers":[{"saturation":-17},{"gamma":0.36}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#3f518c"}]}]
         };
 
-        new google.maps.Map(document.getElementById('map'), myOptions);
+          var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+          var markerLatLng = new google.maps.LatLng(48.8486668, 2.3205816);
+
+          // To add the marker to the map, use the 'map' property
+          var marker = new google.maps.Marker({
+              position: markerLatLng,
+              map: map,
+              title: "85 rue Vaneau"
+        });
         </script>
         </div>
         <div class="col-sm-6">
